@@ -8,8 +8,8 @@ namespace RSA
 {
     internal class Program
     {
-        private static string publicKeyFile = "C:\\Users\\pugli\\OneDrive\\Stalinis kompiuteris\\Desktop\\Kolegija\\4 semestras\\INFORMACIJOS SAUGUMAS\\RSA\\publicKey.txt";
-        private static string encryptedTextFile = "C:\\Users\\pugli\\OneDrive\\Stalinis kompiuteris\\Desktop\\Kolegija\\4 semestras\\INFORMACIJOS SAUGUMAS\\RSA\\encryptedText.txt";
+        private static string publicKeyFile = "C:\\Users\\Nedas\\Source\\Repos\\sibluK\\RSA\\publicKey.txt";
+        private static string encryptedTextFile = "C:\\Users\\Nedas\\Source\\Repos\\sibluK\\RSA\\encryptedText.txt";
 
         private static string ReadFromFile(string fileName)
         {
@@ -139,7 +139,7 @@ namespace RSA
                     }
                 }
             }
-            throw new Exception("Value of 'n' not found in the file.");
+            throw new Exception("n not found in file.");
         }
 
 
